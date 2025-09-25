@@ -51,6 +51,11 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
         source venv/bin/activate
         ```
 
+5. **Update pip**
+    ```bash
+    python -m pip install --upgrade pip
+    ```
+
 5.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
@@ -75,6 +80,19 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
     uipath publish
     ```
     -   When prompted, type and select `0` for the default tenant.
+
+---
+
+## UiPath Cloud Setup
+
+**Note:** A **serverless runtime** must be assigned to the Shared folder for processes and apps to run.  
+If not already configured, follow these steps:
+
+1. Go to **Tenant** → **Folders**  
+2. Select **Shared folder** → **Machines tab**  
+3. If no serverless runtimes are added, click **Manage Machines in Folder**  
+4. Select **Default Cloud Robots - Serverless**  
+5. Click **Update**
 
 ---
 
