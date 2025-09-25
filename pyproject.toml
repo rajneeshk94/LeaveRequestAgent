@@ -1,0 +1,10 @@
+[project]
+name = "leave_request_agent"
+version = "1.0.1"
+description = "leave_request_agent"
+authors = [{ name = "Rajneesh Khare", email = "rajneeshkhare94@gmail.com" }]
+dependencies = [
+    "uipath-langchain>=0.0.106",
+    "langchain-anthropic>=0.3.8",
+]
+requires-python = ">=3.10"

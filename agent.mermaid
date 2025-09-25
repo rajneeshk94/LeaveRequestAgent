@@ -1,0 +1,15 @@
+graph TD
+    start([Start: Leave Request Submitted])
+    check_fields(Check Missing Fields)
+    hitl(HITL: Fill Missing Fields)
+    categorize(Categorize)
+    end_node([End])
+
+    start --> check_fields
+    check_fields -->|All info present| categorize
+    check_fields -->|Missing info| hitl
+    hitl --> check_fields
+    categorize --> end_node
+
+    classDef transparent fill-opacity:0
+    class start,check_fields,hitl,categorize,end_node transparent
