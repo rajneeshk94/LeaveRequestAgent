@@ -56,26 +56,26 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
     python -m pip install --upgrade pip
     ```
 
-5.  **Install dependencies:**
+6.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-6.  **Configure user details:**
+7.  **Configure user details:**
     -   Open the `pyproject.toml` file.
     -   Change the `name` and `email` values to your name and email.
 
-7.  **Authenticate with UiPath:**
+8.  **Authenticate with UiPath:**
     ```bash
     uipath auth
     ```
 
-8.  **Package the project:**
+9.  **Package the project:**
     ```bash
     uipath pack
     ```
 
-9.  **Publish the project:**
+10.  **Publish the project:**
     ```bash
     uipath publish
     ```
@@ -85,7 +85,7 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
 
 ## UiPath Cloud Setup
 
-**Note:** A **serverless runtime** must be assigned to the Shared folder for processes and apps to run.  
+**Note:** A **serverless runtime** must be assigned to the Shared folder for the agent to run.  
 If not already configured, follow these steps:
 
 1. Go to **Tenant** → **Folders**  
