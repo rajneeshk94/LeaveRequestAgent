@@ -3,6 +3,9 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
 
 ---
 
+## Agent Workflow (LangGraph)
+![Agent Workflow](images/AgentFlow.png)
+
 ## Prerequisites
 
 - Python 3.10+ installed
@@ -20,10 +23,9 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
         git clone [https://github.com/rajneeshk94/LeaveRequestAgent.git](https://github.com/rajneeshk94/LeaveRequestAgent.git)
         ```
     * **Option B: Without Git (Download ZIP)**
-        1.  Go to the repository URL: [https://github.com/rajneeshk94/LeaveRequestAgent](https://github.com/rajneeshk94/LeaveRequestAgent)
-        2.  Click the green `<> Code` button.
-        3.  Select `Download ZIP`.
-        4.  Unzip the downloaded file (e.g., `LeaveRequestAgent-main.zip`) to your desired location.
+        1.  Click the green `<> Code` button.
+        2.  Select `Download ZIP`.
+        3.  Unzip the downloaded file (e.g., `LeaveRequestAgent-main.zip`) to your desired location.
 
 2.  **Navigate to the project directory:**
     ```bash
