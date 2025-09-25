@@ -75,7 +75,7 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
     uipath pack
     ```
 
-10.  **Publish the project:**
+10. **Publish the project:**
     ```bash
     uipath publish
     ```
