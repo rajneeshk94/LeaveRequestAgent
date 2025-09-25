@@ -20,7 +20,7 @@ LangGraph Agent to validate and categorize employee leave requests, with human-i
 
     * **Option A: With Git**
         ```bash
-        git clone [https://github.com/rajneeshk94/LeaveRequestAgent.git](https://github.com/rajneeshk94/LeaveRequestAgent.git)
+        git clone https://github.com/rajneeshk94/LeaveRequestAgent.git
         ```
     * **Option B: Without Git (Download ZIP)**
         1.  Click the green `<> Code` button.
